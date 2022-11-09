@@ -22,7 +22,7 @@ app.use(express.json());
 
 // GET route
 app.get("/", (req, res) => {
-    res.send("Mendelssohn Violin Concerto");
+    res.render("index");
 });
 
 // POST route
