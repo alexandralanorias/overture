@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: CircularBlack;
+    src: url(/fonts/Circular/CircularStd-Black.otf) format("opentype");
+}
 
 *{
   padding: 0;
@@ -8,12 +11,13 @@
 body{
   color: white;
   overflow: hidden;
-  font-family: 'Orbitron', sans-serif;
+  font-family: 'CircularBlack';
+  background-color: #DAD1AA;
 }
 
 .top-container{
   height: 40vh;
-  background-color: red;
+  background-color: #B3C9C6;
 }
 
 .bottom-container{
@@ -36,7 +40,6 @@ body{
 }
 
 #form h1{
-  font-style: italic;
   text-shadow: 1px 1px darkgray;
 }
 
